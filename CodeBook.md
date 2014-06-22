@@ -1,6 +1,4 @@
-# This Codebook describes the VARIABLES, the DATA, and 
-# any TRANSFORMATIONS or WORK that was performed to CLEAN UP
-# the data
+# This Codebook describes the VARIABLES, the DATA, and any TRANSFORMATIONS or WORK that was performed to CLEAN UP the data
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%BACKGROUND%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The data set was collected for "Human Activity Recognition 
@@ -69,8 +67,7 @@ Then, combine the resulting datasets together
 	"merged_data":		"X_train_combined" + "X_test_combined"
 
 	
-# Step 2)	Extract only the measurements on the MEAN and STANDARD DEVIATION
-#			for each measurement.
+# Step 2)	Extract only the measurements on the MEAN and STANDARD DEVIATION for each measurement.
 	
 	a.) first, all the index relating to MEAN and STANDARD DEVIATION by searching 
 	through "features"
@@ -81,16 +78,13 @@ Then, combine the resulting datasets together
 	and saved into the variable "merged_data"
 	
 	
-# Step 3)	all the records in "merged_data" was labelled according to its 
-#			corresponding class.
+# Step 3)	all the records in "merged_data" was labelled according to its corresponding class.
 
 
-# Step 4)	using the names in the 'Features.txt', all the columns of the 'merged_data'
-#			were labelled.
+# Step 4)	using the names in the 'Features.txt', all the columns of the 'merged_data' were labelled.
 
 
-# Step 5) 	Created a second, independent tidy data with the average of each variable
-#			for each activity and each subject.
+# Step 5) 	Created a second, independent tidy data with the average of each variable for each activity and each subject.
 
 	"by_activity":		grouped by activity and computed mean and std for each variable
 	
