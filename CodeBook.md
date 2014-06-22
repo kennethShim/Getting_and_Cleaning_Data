@@ -1,6 +1,6 @@
 # This Codebook describes the VARIABLES, the DATA, and any TRANSFORMATIONS or WORK that was performed to CLEAN UP the data
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%BACKGROUND%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%BACKGROUND%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The data set was collected for "Human Activity Recognition 
 Using Smartphones Data set".  So, we know that this is a
 research involving classificatory problem to identify whether
@@ -24,7 +24,7 @@ Activity(Class) Labels
 <li>STANDING</li>
 <li>LAYING </li>
 </ol>
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 # Step 1) COMBINING THE TRAINING AND THE TEST DATASETS
