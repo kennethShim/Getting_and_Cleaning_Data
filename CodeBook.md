@@ -15,46 +15,48 @@ only the measurements on the mean and the standard deviations for
 each measurement so to derive a second, independent tidy data set
 with the average of each variable for each activity and each subject.
 
+<ol>
 Activity(Class) Labels
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING 
+<li>WALKING</li>
+<li>WALKING_UPSTAIRS</li>
+<li>WALKING_DOWNSTAIRS</li>
+<li>SITTING</li>
+<li>STANDING</li>
+<li>LAYING </li>
+</ol>
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 # Step 1) COMBINING THE TRAINING AND THE TEST DATASETS
 
-Train Dataset:			"X_train.txt"
-	location:			"/UCI HAR Dataset/train/"
-	dimension:			rows - 7352, columns - 561
+Train Dataset:			"X_train.txt" <br>
+	location:			"/UCI HAR Dataset/train/"<br>
+	dimension:			rows - 7352, columns - 561<br>
 
-Train Class:			"y_train.txt"
-	location:			"/UCI HAR Dataset/train/"
-	dimension:			rows - 7352, columns - 1
+Train Class:			"y_train.txt"<br>
+	location:			"/UCI HAR Dataset/train/"<br>
+	dimension:			rows - 7352, columns - 1<br>
 
-Train Subject:			"subject_train.txt"
-	location:			"/UCI HAR Dataset/train/"
-	dimension:			rows - 7352, columns - 1
+Train Subject:			"subject_train.txt"<br>
+	location:			"/UCI HAR Dataset/train/"<br>
+	dimension:			rows - 7352, columns - 1<br>
 	
 	
-Test Dataset:			"X_test.txt"
-	location:			"/UCI HAR Dataset/test/"
-	dimension:			rows - 2947 , columns - 561
+Test Dataset:			"X_test.txt"<br>
+	location:			"/UCI HAR Dataset/test/"<br>
+	dimension:			rows - 2947 , columns - 561<br>
 
-Test Class:				"y_test.txt"
-	location:			"/UCI HAR Dataset/test/"
-	dimension:			rows - 2947 , columns - 1
+Test Class:				"y_test.txt"<br>
+	location:			"/UCI HAR Dataset/test/"<br>
+	dimension:			rows - 2947 , columns - 1<br>
 
-Test Subject:			"subject_text.txt"
-	location:			"/UCI HAR Dataset/test/"
-	dimension:			rows - 2947 , columns - 1
+Test Subject:			"subject_text.txt"<br>
+	location:			"/UCI HAR Dataset/test/"<br>
+	dimension:			rows - 2947 , columns - 1<br>
 	
-Dataset Features:		"features.txt"
-	location:			"/UCI HAR Dataset/"
-	dimension:			rows - 561 , columns - 2
+Dataset Features:		"features.txt"<br>
+	location:			"/UCI HAR Dataset/"<br>
+	dimension:			rows - 561 , columns - 2<br>
 
 	
 Here, we need to combine each dataset with its corresponding class and subject.
